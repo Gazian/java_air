@@ -13,8 +13,5 @@ public class Pilot extends CabinCrewMember{
         return this.licenceNumber;
     }
 
-    public String canTalk(){
 
-        return "Hello this is your "+getRank()+" speaking";
-    }
 }
