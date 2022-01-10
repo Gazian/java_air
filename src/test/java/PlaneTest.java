@@ -1,4 +1,5 @@
 import Plane.Plane;
+import Plane.PlaneType;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -10,12 +11,12 @@ public class PlaneTest {
 
     @Before
     public void before(){
-        plane = new Plane("BOEING_747",10, 500);
+        plane = new Plane(PlaneType.BOEING_747,10, 500);
     }
 
     @Test
     public void canGetPlaneType(){
-        assertEquals("BOEING_747",plane.getPlaneType());
+        assertEquals(PlaneType.BOEING_747,plane.getPlaneType());
     }
 
     @Test

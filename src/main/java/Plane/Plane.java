@@ -2,17 +2,17 @@ package Plane;
 
 public class Plane {
 
-    private String planeType;
+    private PlaneType planeType;
     private int capacity;
     private int weight;
 
-    public Plane(String planeType, int capacity, int weight) {
+    public Plane(PlaneType planeType, int capacity, int weight) {
         this.planeType = planeType;
         this.capacity = capacity;
         this.weight = weight;
     }
 
-    public String getPlaneType(){
+    public PlaneType getPlaneType(){
         return this.planeType;
     }
 
